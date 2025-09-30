@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "divider.h": "c",
+        "stdlib.h": "c",
+        "pico.h": "c"
+    },
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "C:\\Users\\busin\\Documents\\ECE4760-FINAL\\Pico\\pico-sdk"
+    },
+    "cmake.generator": "NMake Makefiles"
+}

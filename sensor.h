@@ -1,0 +1,25 @@
+#ifndef SENSOR_H
+#define SENSOR_H
+
+#include <stdbool.h>
+
+// Include hardware libraries as needed
+#include "hardware/i2c.h"
+#include "hardware/gpio.h"
+#include "mpu6050.h" 
+
+// Global variables
+extern int screen_x;
+extern int screen_y;
+
+// Function Prototypes
+void setup();
+int process_gyro_data_for_x(fix15 *gyro);
+int process_acceleration_data_for_y(fix15 *acceleration);
+int clamp_movement(int movement);
+void loop();
+void calculate_relative_movement(fix15 *reference, fix15 *current, int *dx, int *dy);
+void map_to_screen_coordinates(int dx, int dy, int *screen_x, int *screen_y);
+void update_cursor_on_VGA(int x, int y);
+
+#endif 
