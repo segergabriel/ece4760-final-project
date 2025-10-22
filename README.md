@@ -9,7 +9,7 @@
 
 ---
 
-> This project works together with [final-lab-controller-ece4760](https://github.com/segergabriel/final-lab-controller-ece4760),  
+> This project works together with [final-lab-controller-ece4760](https://github.com/segergabriel/controller-ece4760),  
 > which implements the controller logic, Bluetooth communication, and real-time input for this system.
 
 
