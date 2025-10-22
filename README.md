@@ -9,13 +9,17 @@
 
 ---
 
+> This project works together with [final-lab-controller-ece4760](https://github.com/segergabriel/final-lab-controller-ece4760),  
+> which implements the controller logic, Bluetooth communication, and real-time input for this system.
+
+
 ## Overview
 
 This project implements a **VGA graphics pipeline** on the RP2040, a modular **menu system**, and demo modules (e.g., a simple game). Timing-critical VGA signals are generated with **PIO** state machines (HSYNC, VSYNC, RGB), while application logic (menu, demos, sensor/BT helpers) runs on the M0+ cores.
 
 ---
 
-## 🗂 Repository Structure
+## Repository Structure
 
 
 ```
