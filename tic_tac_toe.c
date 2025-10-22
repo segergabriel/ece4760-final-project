@@ -43,12 +43,6 @@ void drawField() {
 }
 
 void displayBoard() {
-
-    // //Draw grid lines, might want to do this as seperate function for speed. 
-    // for (int i = 1; i < SIZE; i++) {
-    //     drawLine(cellWidth * i, 0, cellWidth * i, VGA_HEIGHT, WHITE); // Vertical lines
-    //     drawLine(0, cellHeight * i, VGA_WIDTH, cellHeight * i, WHITE); // Horizontal lines
-    // }
     //draw characters
     for (int i = 0; i < SIZE; i++) {
         for (int j = 0; j < SIZE; j++) {
