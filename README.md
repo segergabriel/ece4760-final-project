@@ -5,7 +5,7 @@
 **Platform:** Raspberry Pi Pico (RP2040)  
 **Language:** C (CMake + pico-sdk)
 
-> For a non-technical overview and results, see **[REPORT.md](./REPORT.md)**.
+> For a longer non-technical overview and results, see **[REPORT.md](./REPORT.md)**.
 
 ---
 
@@ -53,19 +53,13 @@ This design uses **three PIO programs**: HSYNC, VSYNC, and RGB. Connect RP2040 G
 mkdir build && cd build
 cmake ..
 make -j
+```
 
 ## Running
 
 Power the Pico and connect the VGA monitor.
-
 On boot you should see the menu render.
-
-Interact via:
-
-On-board/user buttons, or
-
-Serial/Bluetooth commands (open a serial terminal at the configured baud).
-
+Interact via on-board/user buttons, or Serial/Bluetooth commands (open a serial terminal at the configured baud).
 From the menu you can launch demos, sensor viewers, or any additional features you’ve enabled.
 
 ## Module Details
