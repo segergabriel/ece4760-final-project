@@ -56,7 +56,7 @@ typedef signed int fix15 ;
 #define divfix(a,b) (fix15)(div_s64s64( (((signed long long)(a)) << 15), ((signed long long)(b))))
 
 #define LED             25
-#define BUTTON_PIN      10 // Replace with our actual GPIO
+#define BUTTON_PIN      10 
 
 //Declaring game functions
 int placeholder();
@@ -207,7 +207,7 @@ static PT_THREAD (protothread_bluetooth(struct pt *pt))
     gpio_put(LED, !gpio_get(LED));
     PT_YIELD_usec(30000) ;
     // sendBluetoothData("sending data?");
-    //get x and y coordinate from bluetooth then use thiose to draw cursor here
+    //get x and y coordinate from bluetooth then use those to draw cursor here
     //Reset userclicked on each pass through
     if(userClicked == true)
     {
