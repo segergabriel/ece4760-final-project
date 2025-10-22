@@ -1,4 +1,4 @@
-# ECE4760 Final Project — RP2040 VGA + Menu System
+# ECE4760 Final Project — Tic Tac Toe
 
 **Course:** ECE4760 Embedded Microcontrollers (Cornell Universitt)  
 **Authors:** Gabriel Seger (@segergabriel) & Sebastian Clavijo  
