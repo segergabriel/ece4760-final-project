@@ -3,8 +3,6 @@
 
 #include "hardware/uart.h"
 #include "hardware/gpio.h"
-//#include "pt_cornell_rp2040_v1.h"
-//#include <stdio.h>
 #include "pico/stdlib.h"
 
 void initBluetooth(uint baudrate, uint tx_pin, uint rx_pin, int master);
@@ -13,7 +11,6 @@ void sendATCommand(const char* cmd);
 bool readBluetoothResponse(char* buffer);
 void configMaster();
 int parseResponse(char*, int*, int*);
-// const char* pico_strchr(const char* str, char c);
 int parseBluetoothResponse(const char* , int*, int*, volatile bool*, volatile bool*);
 
 #endif
